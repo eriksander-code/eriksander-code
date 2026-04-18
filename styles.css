@@ -596,12 +596,12 @@ footer {
         text-align: left;
         gap: 25px;
 
-        border: 2px solid red;
+        
     }
 
     .info, .social-media, .index {
         width: 100%;
-		border: 2px solid red;
+	
     }
 
     .info {
