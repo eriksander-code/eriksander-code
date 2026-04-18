@@ -545,6 +545,7 @@ footer {
 
     .corpo {
         width: 95vw;
+        max-width: 95vw;
         border-left: none;
         border-right: none;
     }
