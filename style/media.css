@@ -1,0 +1,108 @@
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    Creation Date: 04/19/2026
+    Last Update: 04/19/2026
+    Created by: Eriksander P. Silva
+    Name: media.css
+    Description: This file contains the whole system of classes for the media queries in the HTML.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (max-width: 768px) {
+
+    header {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    .logo {
+        width: 20%;
+        margin-right: 0;
+    }
+
+    .sidebar {
+        display:none;
+    }
+
+    .corpo {
+        width: 95vw;
+        max-width: 95vw;
+        border-left: none;
+        border-right: none;
+    }
+
+    .corpo-text {
+        width: 90%;
+        max-width: 90%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .c-title {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .c-subtitle {
+        font-size: 18px;
+    }
+
+    .c-paragraph {
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: left;
+    }
+
+    .c-lateral-subtitle {
+        font-size: 18px;
+    }
+
+    .c-box, .c-box-code {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 4%;
+    }
+
+    .c-image {
+        max-width: 100%;
+    }
+
+    footer {
+        height: 65vh;
+        padding: 20px 0;
+    }
+
+    .footer-box {
+        display: grid;
+        justify-content: left;
+        align-items: left;
+        text-align: left;
+        gap: 25px;
+
+        
+    }
+
+    .info, .social-media, .index {
+        width: 100%;
+	
+    }
+
+    .info {
+        text-align: left;
+    }
+
+    .social-media a,
+    .index a {
+        display: flex;
+        margin: 0;
+    }
+
+    .credits {
+        margin-top: 20%;
+    }
+
+}       

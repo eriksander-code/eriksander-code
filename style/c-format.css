@@ -1,0 +1,250 @@
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    Creation Date: 04/19/2026
+    Last Update: 04/19/2026
+    Created by: Eriksander P. Silva
+    Name: c-format.css
+    Description: this file contains the main and corpo classes; can be used
+                 to write and format the text. Is a archive "from" main, but
+                 just complements.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.c-title {
+    text-align: center;
+    font-size: 28px;
+    font-family: Quicksand;
+    font-weight: 1000;
+
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+
+.c-subtitle {
+    text-align: center;
+    font-size: 22px;
+    font-family: Quicksand;
+    font-weight: 1000;
+
+    margin-top: 0%;
+    margin-bottom: 2%;
+}
+
+.c-paragraph {
+    text-align: justify;
+    font-size: 18px;
+    font-family: Quicksand;
+
+    margin-top: 0%;
+    margin-bottom: 7.5%;
+
+    line-height: 1.5;
+}
+
+.c-paragraph2 {
+    text-align: justify;
+    font-size: 18px;
+    font-family: Quicksand;
+
+    margin-top: 0%;
+    margin-bottom: 2%;
+
+    line-height: 1.5;
+}
+
+.c-lateral-subtitle {
+    text-align: left;
+    font-size: 22px;
+    font-family: Quicksand;
+
+    margin-top: 0%;
+    margin-bottom: 2%;
+
+    line-height: 1.5;
+}
+
+.c-footer-title {
+    text-align: left;
+    font-size: 16px;
+    font-family: Quicksand;
+    font-weight: bold;
+
+    margin-top: 0%;
+    margin-bottom: 5%;
+
+    line-height: 1.5;
+}
+
+.c-box-code {
+    text-align: left;
+    font-size: 18px;
+    font-family: 'JetBrains Mono';
+
+    margin-top: 0%;
+    margin-bottom: 1.5%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    padding: 2.5%;
+
+    line-height: 1.5;
+
+    border-radius: 25px;
+    background-color: #0d0d0d; 
+    border: 1px solid #222;
+}
+
+.c-box {
+    text-align: justify;
+    font-size: 18px;
+    font-family: Quicksand;
+
+    margin-top: 0%;
+    margin-bottom: 5%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    padding: 2.5%;
+
+    line-height: 1.5;
+
+    border-radius: 25px;
+    background-color: #0d0d0d; 
+    border: 1px solid #222;
+}
+
+.c-timeline-box {
+    text-align: left;
+    font-size: 18px;
+    font-family: Quicksand;
+
+    margin-top: 0%;
+    margin-bottom: 5%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    padding: 2.5%;
+
+    line-height: 2;
+
+    background-color: rgba(0, 0, 0, 0); 
+    border-left: 3px solid #222;
+}
+
+.c-line {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgb(39, 39, 39);
+
+    border: 2px solid rgb(39,39,39);
+    border-radius: 50px;
+}
+
+.c-vertical-line {
+    height: 70%;
+
+    background-color: rgb(45, 45, 45);
+
+    border: 1.5px solid rgb(45, 45, 45);
+    border-radius: 50px;
+}
+
+.c-image-box-center {
+    height: auto;
+    width: auto;
+    
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    
+    margin-bottom: 0%;
+}
+
+.c-image-box-left {
+    height: auto;
+    width: auto;
+    
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    
+    margin-bottom: 0%;
+}
+
+.c-image-box-right {
+    height: auto;
+    width: auto;
+    
+    display: flex;
+    align-items: start;
+    justify-content: right;
+    
+    margin-bottom: 0%;
+}
+
+    .c-image-small {
+        max-width: 60%;
+        max-height: 60%;
+
+        border-radius: 25px;
+    }
+    .c-image-medium {
+        max-width: 80%;
+        max-height: 80%;
+
+        border-radius: 25px;
+    }
+    .c-image-big {
+        max-width: 100%;
+        max-height: 100%;
+
+        border-radius: 25px;
+    }
+
+.c-format-red {
+    color: #ff2323;
+}
+
+.c-format-blue {
+    color: #8be9fd;
+}
+
+.c-format-green {
+    color: #50fa7b;
+}
+
+.c-format-cyan {
+    color: rgb(0,122,122);
+}
+
+.c-format-underline {
+    text-decoration: underline;
+}
+
+.c-format-italic {
+    font-style: italic;
+}
+
+.c-format-bold {
+    font-weight: 1000;
+}
+
+.c-format-skygreen {
+    color: rgb(205, 255, 205);
+}
+
+.c-format-purple {
+    color: #d6bcfa;
+    font-weight: bold;
+}
+
+.c-space {
+    width: 25vw;
+}
+
+a {
+    color: #888;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(4, 238, 255, 0.7);
+}

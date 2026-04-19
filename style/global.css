@@ -1,0 +1,30 @@
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    Creation Date: 04/19/2026
+    Last Update: 04/19/2026
+    Created by: Eriksander P. Silva
+    Name: global.css
+    Description: This file contains all global classes for the HTML.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+
+body {
+	display: grid;
+	align-items: space-between;
+	justify-content: center;
+	
+	margin: 0;
+	font-family: Quicksand;
+	font-size: 12px;
+	font-weight: 500;
+	color: #cbd5e0;
+	
+	height: auto;
+	width: auto;
+
+	overflow-x: hidden;
+}

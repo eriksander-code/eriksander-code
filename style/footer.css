@@ -1,0 +1,84 @@
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    Creation Date: 04/19/2026
+    Last Update: 04/19/2026
+    Created by: Eriksander P. Silva
+    Name: footer.css
+    Description: This file contains the whole system of classes for the footer in the HTML.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+footer {
+	position: relative;
+	top: 0vh;
+	bottom: 0px;
+	
+	display: grid;
+	justify-content: center;
+	align-items: space-between;
+
+	width: 100vw;
+	min-height: 24vh;
+	height: auto;
+	background: #0c0c0c;
+	
+    border-top: 1px solid #1a1a1a;
+}
+    .footer-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        
+        margin: auto;
+		margin-right: 10%;
+        
+        height: 80%;
+        width: 60vw;
+		max-width: 80vw;
+    }
+        
+        .info {
+            display: grid;
+            justify-content: space-around;
+            align-items: top;
+            
+            text-align: justify;
+            height: auto;
+            width: 15%;
+
+			margin-right: 0%;
+        }
+        
+        .social-media {
+            display: grid;
+            justify-content: space-around;
+            align-items: top;
+        
+            text-align: left;
+            height: auto;
+            width: auto;
+
+        }
+        
+        .index {
+            display: grid;
+            justify-content: space-around;
+            align-items: top;
+        
+            text-align: left;
+            height: auto;
+            width: auto;
+
+			margin-right: 10%;
+        }
+    
+    .credits {
+        margin: auto;
+		text-align: center;
+        
+        font-family: 'Times New Roman', serif;
+        font-style: italic;
+        font-size: 12px;
+        
+        color: rgb(180,180,180);
+    }
