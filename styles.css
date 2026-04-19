@@ -116,10 +116,9 @@ main {
 	}
 
 	.sidebar:hover {
-		transform: scale(1);
+		transform: translateX(45%);
 
 		position: fixed;
-		left: -10%;
 	}
 
 		.s-index {
