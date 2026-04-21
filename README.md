@@ -17,3 +17,7 @@ The primary objective of this project is to document an in-depth study of **C++*
 
 ## Development Status
 This portfolio is an active project, updated as new implementation stages of my graphics engine base and system abstractions are completed.
+
+## Personal Blog 
+On this site I'll register all my progress:
+https://eriksander-code.github.io/eriksander-code/
