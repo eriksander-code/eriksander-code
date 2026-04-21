@@ -129,7 +129,8 @@
     }
 
     footer {
-        height: 55vh;
+        min-height: 65vh;
+        height: 65vh;
         padding: 20px 0;
     }
 
