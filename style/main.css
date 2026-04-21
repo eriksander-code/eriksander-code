@@ -51,8 +51,8 @@ main {
 
 		.button-icon {
 			width: 20%;
-
 			height: 110%;
+			font-size: 12px;
 
 			border-radius: 12px;
 			color: #cbd5e0;
