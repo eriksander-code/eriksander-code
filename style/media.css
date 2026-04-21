@@ -8,15 +8,40 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
+@media (min-width: 1080px) {
+    .mobile-index {
+        display: none;
+    }
+}
+
 @media (max-width: 768px) {
 
+    body {
+        width: 100vw;
+    }
+
     header {
-        height: auto;
+        position:fixed;
+        align-items: start;
+
+        height: 5vh;
         padding: 20px 0;
+        z-index: 1000;
+    }
+
+    .mobile-index {
+        z-index: 999;
+    }
+
+    main {
+        padding-top: 8vh;
     }
 
     .title {
-        font-size: 22px;
+        font-size: 18px;
+    }
+    .subtitle {
+        font-size: 14px;
     }
 
     .logo {
@@ -28,6 +53,10 @@
         display:none;
     }
 
+    .sidebar-pages {
+        display:none;
+    }
+
     .corpo {
         width: 95vw;
         max-width: 95vw;
@@ -36,63 +65,94 @@
     }
 
     .corpo-text {
-        width: 90%;
         max-width: 90%;
         margin-top: 10%;
         margin-bottom: 10%;
     }
 
     .c-title {
-        font-size: 22px;
+        max-width: 100vw;
+
+        font-size: 20px;
         text-align: center;
     }
 
     .c-subtitle {
-        font-size: 18px;
+        max-width: 100vw;
+
+        font-size: 16px;
     }
 
     .c-paragraph {
-        font-size: 16px;
+        max-width: 100vw;
+
+        font-size: 14px;
+        line-height: 1.6;
+        text-align: justify;
+    }
+
+    .c-paragraph2 {
+        max-width: 100vw;
+
+        font-size: 14px;
+        line-height: 1.6;
+        text-align: justify;
+    }
+
+    .c-timeline-box {
+        max-width: 100vw;
+
+        font-size: 14px;
         line-height: 1.6;
         text-align: left;
     }
 
+
     .c-lateral-subtitle {
-        font-size: 18px;
+        max-width: 100vw;
+
+        font-size: 16px;
     }
 
     .c-box, .c-box-code {
+        max-width: 80vw;
+
+        font-size: 14px;
+
         margin-left: 0;
         margin-right: 0;
         padding: 4%;
     }
 
     .c-image {
-        max-width: 100%;
+        max-width: 100vw;
     }
 
     footer {
-        height: 65vh;
+        height: 55vh;
         padding: 20px 0;
     }
 
     .footer-box {
-        display: grid;
+        display: flow;
         justify-content: left;
         align-items: left;
         text-align: left;
         gap: 25px;
 
-        
+        max-width: 50vw;
     }
 
     .info, .social-media, .index {
+        display: grid;
+        justify-content: left;
+        justify-items: left;
+
         width: 100%;
-	
     }
 
     .info {
-        text-align: left;
+        text-align: justify;
     }
 
     .social-media a,
@@ -102,7 +162,7 @@
     }
 
     .credits {
-        margin-top: 20%;
+        margin-top: 30%;
     }
 
 }       

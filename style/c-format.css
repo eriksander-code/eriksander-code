@@ -179,17 +179,30 @@
     margin-bottom: 0%;
 }
 
+
+    .c-image-ex-small {
+        max-width: 20%;
+        max-height: 20%;
+
+        border-radius: 25px;
+    }
     .c-image-small {
         max-width: 60%;
         max-height: 60%;
+
+        border-radius: 25px;
     }
     .c-image-medium {
         max-width: 80%;
         max-height: 80%;
+
+        border-radius: 25px;
     }
     .c-image-big {
         max-width: 100%;
         max-height: 100%;
+
+        border-radius: 25px;
     }
 
 .c-format-red {
@@ -233,15 +246,8 @@
     width: 25vw;
 }
 
-.c-margin-75 {
-    margin-bottom: 7.5%;
-}
-
-.c-margin-20 {
-    margin-bottom: 2.0%;
-}
-
 a {
+    text-decoration: none;
     color: #888;
     transition: color 0.3s ease;
 }

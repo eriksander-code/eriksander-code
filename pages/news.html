@@ -11,11 +11,14 @@
 		<link rel="stylesheet" href="../style/c-format.css">
 		<link rel="stylesheet" href="../style/footer.css">
 		<link rel="stylesheet" href="../style/media.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+		<script src="../js/events.js"> </script>
 		<link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/258270517?s=400&u=86ec24cb3adc86ccbdcbde97da5247bf1eaf7e98&v=4" />
 		
 	</head>
 	
-	<body>
+	<body>	
+		
 		<header>
 			<div class="box-header">
 				<div class="logo">
@@ -25,7 +28,7 @@
 				<div class="title">
 					Portfólio de Desenvolvimento Técnico
 					<div class="subtitle">
-						Início
+						News & DevLog
 					</div>
 				</div>
 
@@ -34,6 +37,44 @@
 				</div>
 			</div>
 		</header>
+
+		<div class="mobile-index">
+			<div class="m-index">
+				<div class="m-index-box">
+					<button class="m-button">
+						<a href="../index.html" class="bi bi-house"></a>
+					</button>
+
+					<button class="m-button">
+						<a href="../pages/aboutme.html" class="bi bi-person-circle"></a>
+					</button>
+
+					<button class="m-button">
+						<a href="../pages/begin.html" class="bi bi-book"></a>
+					</button>
+
+					<button class="m-button">
+						<a href="../pages/projects.html" class="bi bi-code-slash"></a>
+					</button>
+
+					<button class="m-button">
+						<a href="../pages/skills.html" class="bi bi-stars"></a>
+					</button>
+
+					 <button class="m-button">
+						<a href="../pages/contact.html" class="bi bi-envelope"></a>
+					</button>
+
+                    <button class="m-button">
+						<a href="../pages/setup.html" class="bi bi-gear-wide-connected"></a>
+					</button>
+
+				</div>
+			</div>
+			<div class="m-popup">
+				▼
+			</div>
+		</div>
 		
 		<main>
 			<div class="sidebar">
@@ -52,62 +93,353 @@
 				</div>
 			</div>
 
+			<div class="sidebar-pages">
+				<div class="s-pages">
+					<div class="s-pages-box">
+						<span class="s-lateral-subtitle"> Página</span> <br>
+						<button onclick="hide_pages(1)" class="button-icon"> 1 </button>
+						<button onclick="hide_pages(2)" class="button-icon"> 2 </button>
+						<button onclick="hide_pages(3)" class="button-icon"> 3 </button>
+						<button onclick="hide_pages(4)" class="button-icon"> 4 </button>
+						<button onclick="hide_pages(5)" class="button-icon"> 5 </button>
+						<button onclick="hide_pages(6)" class="button-icon"> 6 </button>
+						<button onclick="hide_pages(7)" class="button-icon"> 7 </button>
+						<button onclick="hide_pages(8)" class="button-icon"> 8 </button>
+						<button onclick="hide_pages(9)" class="button-icon"> 9 </button>
+						<button onclick="hide_pages(10)" class="button-icon"> 10 </button>
+						<button onclick="hide_pages(11)" class="button-icon"> 11 </button>
+						<button onclick="hide_pages(12)" class="button-icon"> 12 </button>
+						<button onclick="hide_pages(13)" class="button-icon"> 13 </button>
+						<button onclick="hide_pages(14)" class="button-icon"> 14 </button>
+						<button onclick="hide_pages(15)" class="button-icon"> 15 </button>
+					</div>
+				</div>
+				<div class="s-popup">
+					››
+				</div>
+			</div>
+
 			<div class="corpo">
 				<div class="corpo-text">
-
 					
+					<div class="pages" id="page_1" > 
+						<div class="c-title">
+							News & DevLog
 
-					<div class="c-title">
-						Eriksander Silva | Portfólio de Desenvolvimento Técnico
-					</div>
-
-					<div class="c-title">
-						News & DevLog
-					</div>
-
-					<div class="c-paragraph2">
-						Registro cronológico de atualizações, marcos de estudo e progresso técnico.
-					</div>
-
-					<!--ADICIONAR ACIMA-->
-
-					<div class="c-line"> </div>
-
-					<div class="c-box-code">
+							<div class="c-subtitle">
+								Página: 1
+							</div>
+						</div>
 
 						<div class="c-paragraph2">
-							<span class="c-format-bold">DATA:</span> 19 de Abril, 2026<br>
-							<span class="c-format-purple">ASSUNTO:</span> Passos finais da criação do blog/currículo online
+							Registro cronológico de atualizações, marcos de estudo e progresso técnico.
 						</div>
 
 						<div class="c-line"> </div>
 
-						<div class="c-subtitle">
-							Primeiro post do site
-						</div>
+						<div class="c-box-code">
 
-						<div class="c-paragraph2">
-							Bom, como podemos ver, o site está quase pronto. Optei por cores escuras e design relativamente simples, é um site de HTML estático, não vi necessidade de JavaScript ou grandes animações. Ainda tenho
-							de terminar as outras páginas e preencher.
-						</div>
+							<div class="c-paragraph2">
+								<span class="c-format-bold">DATA:</span> 19 de Abril, 2026<br>
+								<span class="c-format-purple">ASSUNTO:</span> Passos finais da criação do blog/currículo online
+							</div>
 
-						<div class="c-paragraph">
-							Pensei se deveria escrever em inglês ou português; se seguirmos o padrão mundial devo colocar inglês, mas não confio na minha gramática. Vou estudar mais e melhorar na escrita antes de trocar o idioma do site.
-							Este é um post de inauguração, na aba de DevLog; regularmente vou postar informações relevantes do meu progresso nos estudos.
-						</div>
+							<div class="c-line"> </div>
 
-						<div class="c-image-box-center">
-							<img src="https://www.khronos.org/assets/images/api_logos/opengl.svg" class="c-image-small"  class="c-margin-75">
-						</div>
+							<div class="c-subtitle">
+								Primeiro post do site
+							</div>
 
-						<div class="c-paragraph2">
-							Ainda há correções a serem feitas. Veja tela inicial:
-						</div>
+							<div class="c-paragraph2">
+								Bom, como podemos ver, o site está quase pronto. Optei por cores escuras e design relativamente simples, é um site de HTML estático, não vi necessidade de JavaScript ou grandes animações. Ainda tenho
+								de terminar as outras páginas e preencher.
+							</div>
 
-						<div class="c-image-box-center">
-							<img src="../assets/img04192026.png" class="c-image-medium">
+							<div class="c-paragraph">
+								Pensei se deveria escrever em inglês ou português; se seguirmos o padrão mundial devo colocar inglês, mas não confio na minha gramática. Vou estudar mais e melhorar na escrita antes de trocar o idioma do site.
+								Este é um post de inauguração, na aba de DevLog; regularmente vou postar informações relevantes do meu progresso nos estudos.
+							</div>
+
+							<div class="c-image-box-center">
+								<img src="https://www.khronos.org/assets/images/api_logos/opengl.svg" class="c-image-small"  class="c-margin-75">
+							</div>
+
+							<div class="c-paragraph2">
+								Ainda há correções a serem feitas. Veja tela inicial:
+							</div>
+
+							<div class="c-image-box-center">
+								<img src="../assets/screenshots/img04192026.png" class="c-image-medium">
+							</div>
 						</div>
 					</div>
+
+					<div class="pages hide" id="page_2"> 
+						<div class="c-title">
+							News & DevLog
+
+							<div class="c-subtitle">
+								Página: 2
+							</div>
+						</div>
+
+						<div class="c-paragraph2">
+							Nada por aqui ainda.
+						</div>
+						
+						<!--Image From: https://www.freepik.com/free-vector/hand-drawn-stone-rock-outline-illustration_133782390.htm#fromView=search&page=1&position=21&uuid=9049ebc3-ffcd-4d1f-bb0d-56b241167020&query=Tumbleweed+draw-->
+						<div class="c-image-box-center">
+							<img src="../assets/img/absent/rock-2.png" class="c-image-ex-small">
+						</div>
+					</div>
+
+					<div class="pages hide" id="page_3"> 
+						<div class="c-title">
+							News & DevLog
+
+							<div class="c-subtitle">
+								Página: 3
+							</div>
+						</div>
+
+						<div class="c-paragraph2">
+							Nada por aqui ainda.
+						</div>
+						
+						<!--Image From: https://www.freepik.com/free-vector/hand-drawn-stone-rock-outline-illustration_133782390.htm#fromView=search&page=1&position=21&uuid=9049ebc3-ffcd-4d1f-bb0d-56b241167020&query=Tumbleweed+draw-->
+						<div class="c-image-box-center">
+							<img src="../assets/img/absent/rock-2.png" class="c-image-ex-small">
+						</div>
+					</div>
+
+					<div class="pages hide" id="page_4"> 
+						<div class="c-title">
+							News & DevLog
+
+							<div class="c-subtitle">
+								Página: 4
+							</div>
+						</div>
+
+						<div class="c-paragraph2">
+							Nada por aqui ainda.
+						</div>
+						
+						<!--Image From: https://www.freepik.com/free-vector/hand-drawn-stone-rock-outline-illustration_133782390.htm#fromView=search&page=1&position=21&uuid=9049ebc3-ffcd-4d1f-bb0d-56b241167020&query=Tumbleweed+draw-->
+						<div class="c-image-box-center">
+							<img src="../assets/img/absent/rock-2.png" class="c-image-ex-small">
+						</div>
+					</div>
+
+					<div class="pages hide" id="page_5"> 
+						<div class="c-title">
+							News & DevLog
+
+							<div class="c-subtitle">
+								Página: 5
+							</div>
+						</div>
+
+						<div class="c-paragraph2">
+							Nada por aqui ainda.
+						</div>
+						
+						<!--Image From: https://www.freepik.com/free-vector/hand-drawn-stone-rock-outline-illustration_133782390.htm#fromView=search&page=1&position=21&uuid=9049ebc3-ffcd-4d1f-bb0d-56b241167020&query=Tumbleweed+draw-->
+						<div class="c-image-box-center">
+							<img src="../assets/img/absent/rock-2.png" class="c-image-ex-small">
+						</div>
+					</div>
+
+					<div class="pages hide" id="page_6"> 
+						<div class="c-title">
+							News & DevLog
+
+							<div class="c-subtitle">
+								Página: 6
+							</div>
+						</div>
+
+						<div class="c-paragraph2">
+							Nada por aqui ainda.
+						</div>
+						
+						<!--Image From: https://www.freepik.com/free-vector/hand-drawn-stone-rock-outline-illustration_133782390.htm#fromView=search&page=1&position=21&uuid=9049ebc3-ffcd-4d1f-bb0d-56b241167020&query=Tumbleweed+draw-->
+						<div class="c-image-box-center">
+							<img src="../assets/img/absent/rock-2.png" class="c-image-ex-small">
+						</div>
+					</div>
+
+					<div class="pages hide" id="page_7"> 
+						<div class="c-title">
+							News & DevLog
+
+							<div class="c-subtitle">
+								Página: 7
+							</div>
+						</div>
+
+						<div class="c-paragraph2">
+							Nada por aqui ainda.
+						</div>
+						
+						<!--Image From: https://www.freepik.com/free-vector/hand-drawn-stone-rock-outline-illustration_133782390.htm#fromView=search&page=1&position=21&uuid=9049ebc3-ffcd-4d1f-bb0d-56b241167020&query=Tumbleweed+draw-->
+						<div class="c-image-box-center">
+							<img src="../assets/img/absent/rock-2.png" class="c-image-ex-small">
+						</div>
+					</div>
+
+					<div class="pages hide" id="page_8"> 
+						<div class="c-title">
+							News & DevLog
+
+							<div class="c-subtitle">
+								Página: 8
+							</div>
+						</div>
+
+						<div class="c-paragraph2">
+							Nada por aqui ainda.
+						</div>
+						
+						<!--Image From: https://www.freepik.com/free-vector/hand-drawn-stone-rock-outline-illustration_133782390.htm#fromView=search&page=1&position=21&uuid=9049ebc3-ffcd-4d1f-bb0d-56b241167020&query=Tumbleweed+draw-->
+						<div class="c-image-box-center">
+							<img src="../assets/img/absent/rock-2.png" class="c-image-ex-small">
+						</div>
+					</div>
+
+					<div class="pages hide" id="page_9"> 
+						<div class="c-title">
+							News & DevLog
+
+							<div class="c-subtitle">
+								Página: 9
+							</div>
+						</div>
+
+						<div class="c-paragraph2">
+							Nada por aqui ainda.
+						</div>
+						
+						<!--Image From: https://www.freepik.com/free-vector/hand-drawn-stone-rock-outline-illustration_133782390.htm#fromView=search&page=1&position=21&uuid=9049ebc3-ffcd-4d1f-bb0d-56b241167020&query=Tumbleweed+draw-->
+						<div class="c-image-box-center">
+							<img src="../assets/img/absent/rock-2.png" class="c-image-ex-small">
+						</div>
+					</div>
+
+					<div class="pages hide" id="page_10"> 
+						<div class="c-title">
+							News & DevLog
+
+							<div class="c-subtitle">
+								Página: 10
+							</div>
+						</div>
+
+						<div class="c-paragraph2">
+							Nada por aqui ainda.
+						</div>
+						
+						<!--Image From: https://www.freepik.com/free-vector/hand-drawn-stone-rock-outline-illustration_133782390.htm#fromView=search&page=1&position=21&uuid=9049ebc3-ffcd-4d1f-bb0d-56b241167020&query=Tumbleweed+draw-->
+						<div class="c-image-box-center">
+							<img src="../assets/img/absent/rock-2.png" class="c-image-ex-small">
+						</div>
+					</div>
+
+					<div class="pages hide" id="page_11"> 
+						<div class="c-title">
+							News & DevLog
+
+							<div class="c-subtitle">
+								Página: 15
+							</div>
+						</div>
+
+						<div class="c-paragraph2">
+							Nada por aqui ainda.
+						</div>
+						
+						<!--Image From: https://www.freepik.com/free-vector/hand-drawn-stone-rock-outline-illustration_133782390.htm#fromView=search&page=1&position=21&uuid=9049ebc3-ffcd-4d1f-bb0d-56b241167020&query=Tumbleweed+draw-->
+						<div class="c-image-box-center">
+							<img src="../assets/img/absent/rock-2.png" class="c-image-ex-small">
+						</div>
+					</div>
+
+					<div class="pages hide" id="page_12"> 
+						<div class="c-title">
+							News & DevLog
+
+							<div class="c-subtitle">
+								Página: 12
+							</div>
+						</div>
+
+						<div class="c-paragraph2">
+							Nada por aqui ainda.
+						</div>
+						
+						<!--Image From: https://www.freepik.com/free-vector/hand-drawn-stone-rock-outline-illustration_133782390.htm#fromView=search&page=1&position=21&uuid=9049ebc3-ffcd-4d1f-bb0d-56b241167020&query=Tumbleweed+draw-->
+						<div class="c-image-box-center">
+							<img src="../assets/img/absent/rock-2.png" class="c-image-ex-small">
+						</div>
+					</div>
+
+					<div class="pages hide" id="page_13"> 
+						<div class="c-title">
+							News & DevLog
+
+							<div class="c-subtitle">
+								Página: 13
+							</div>
+						</div>
+
+						<div class="c-paragraph2">
+							Nada por aqui ainda.
+						</div>
+						
+						<!--Image From: https://www.freepik.com/free-vector/hand-drawn-stone-rock-outline-illustration_133782390.htm#fromView=search&page=1&position=21&uuid=9049ebc3-ffcd-4d1f-bb0d-56b241167020&query=Tumbleweed+draw-->
+						<div class="c-image-box-center">
+							<img src="../assets/img/absent/rock-2.png" class="c-image-ex-small">
+						</div>
+					</div>
+
+					<div class="pages hide" id="page_14"> 
+						<div class="c-title">
+							News & DevLog
+
+							<div class="c-subtitle">
+								Página: 14
+							</div>
+						</div>
+
+						<div class="c-paragraph2">
+							Nada por aqui ainda.
+						</div>
+						
+						<!--Image From: https://www.freepik.com/free-vector/hand-drawn-stone-rock-outline-illustration_133782390.htm#fromView=search&page=1&position=21&uuid=9049ebc3-ffcd-4d1f-bb0d-56b241167020&query=Tumbleweed+draw-->
+						<div class="c-image-box-center">
+							<img src="../assets/img/absent/rock-2.png" class="c-image-ex-small">
+						</div>
+					</div>
+
+					<div class="pages hide" id="page_15"> 
+						<div class="c-title">
+							News & DevLog
+
+							<div class="c-subtitle">
+								Página: 15
+							</div>
+						</div>
+
+						<div class="c-paragraph2">
+							Nada por aqui ainda.
+						</div>
+						
+						<!--Image From: https://www.freepik.com/free-vector/hand-drawn-stone-rock-outline-illustration_133782390.htm#fromView=search&page=1&position=21&uuid=9049ebc3-ffcd-4d1f-bb0d-56b241167020&query=Tumbleweed+draw-->
+						<div class="c-image-box-center">
+							<img src="../assets/img/absent/rock-2.png" class="c-image-ex-small">
+						</div>
+					</div>
+
 
 					<!--TEMPLATE DE POST:
 						<div class="c-box-code">
@@ -144,12 +476,12 @@
 			    <div> </div>
 			
 			    <div class="info">
-					<span class="c-footer-title"> Sobre</span>
+					<span class="c-footer-title"> Sobre</span> <br>
 			        Projeto iniciado em 2026 com foco em apresentar meu perfil
 					e projetos para oportunidades na área de programação.
-			    </div>
+				</div>
 			    
-			    <div> </div>
+			    <div> </div> <br><br>
 			    
 			    <div class="social-media">
 					<span class="c-footer-title"> Redes Sociais</span>
@@ -160,7 +492,7 @@
 			        <a href=""> LinkedIn</a>
 			    </div>
 
-				<div> </div>
+				<div> </div> <br><br>
 			    
 			    <div class="index">
 					<span class="c-footer-title"> Navegação</span>
@@ -169,6 +501,8 @@
 			        <a href="../pages/begin.html"> Como Começou </a>
 			        <a href="../pages/projects.html"> Projetos </a>
 			        <a href="../pages/skills.html"> Habilidades e Competências</a>
+					<a href="../pages/setup.html"> Ferramentas</a>
+                    <a href="../pages/contact.html"> Contato</a>
 			    </div>
 			</div>
 			
@@ -176,5 +510,7 @@
 			    Criado e gerenciado por: Eriksander P. Silva. | 2026
 			</div>
 		</footer>
+		
 	</body>
+
 </html>

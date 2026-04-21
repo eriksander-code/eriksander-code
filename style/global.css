@@ -27,4 +27,5 @@ body {
 	width: auto;
 
 	overflow-x: hidden;
+	overflow-wrap: break-word;
 }
